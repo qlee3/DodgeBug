@@ -17,7 +17,7 @@ yarn or npm install
 yarn play or npm run play
 ```
 
-![DodgeBug.gif](https://github.com/qlee3/DodgeBug/master/DodgeBug.gif)
+![DodgeBug.gif](https://github.com/qlee3/DodgeBug/blob/main/DodgeBug.gif?raw=true)
 
 ## 소스 출처
 
