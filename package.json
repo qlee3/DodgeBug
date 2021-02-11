@@ -1,5 +1,5 @@
 {
-  "name": "DodgeBug",
+  "name": "dodge-bug",
   "version": "1.0.0",
   "description": "Dodge Bug during build time!",
   "main": "index.js",
@@ -7,6 +7,9 @@
   "license": "MIT",
   "scripts": {
     "play": "node play.js"
+  },
+  "bin": {
+    "play-dodgebug": "./play.js"
   },
   "dependencies": {
     "blessed": "^0.1.81"

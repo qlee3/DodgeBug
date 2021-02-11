@@ -7,6 +7,12 @@ A terminal-based Dodge Bug implementation written in JavaScript (Node.js).
 # How to Play
 
 ```
+npm install -g dodge-bug
+play-dodgebug
+```
+
+```
+// if you cloned this repository
 yarn or npm install
 yarn play or npm run play
 ```
