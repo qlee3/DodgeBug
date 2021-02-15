@@ -21,6 +21,7 @@ class Game {
 
     this.bugArr = []
     this.developer = Math.floor(this.ui.gameContainer.width / 2)
+    this.canMove = true
 
     this.score = 0
     this.timer = null
@@ -51,14 +52,21 @@ class Game {
       x: this.developer,
       y: this.ui.gameContainer.height - 1
     }, "red")
+    this.canMove = true
   }
 
   changeDirection(_, key) {
     if ((key.name === DIRECTION_LEFT || key.name === 'a')) {
-      if (this.developer > 0) this.developer = this.developer - 1
+      if (this.developer > 0 && this.canMove){
+        this.developer = this.developer - 1
+        this.canMove = false
+      }
     }
     if ((key.name === DIRECTION_RIGHT || key.name === 'd')) {
-      if (this.developer < this.ui.gameContainer.width - 1) this.developer = this.developer + 1
+      if (this.developer < this.ui.gameContainer.width - 1 && this.canMove) {
+        this.developer = this.developer + 1
+        this.canMove = false
+      }
     }
   }
 

@@ -1,4 +1,4 @@
-const GAME_SPEED = 100
+const GAME_SPEED = 50
 
 const DIRECTION_UP = 'up';
 const DIRECTION_RIGHT = 'right';
