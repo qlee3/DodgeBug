@@ -1,7 +1,8 @@
 {
   "name": "dodge-bug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dodge Bug during build time!",
+  "repository": "https://github.com/qlee3/DodgeBug",
   "main": "index.js",
   "author": "qlee3",
   "license": "MIT",
