@@ -1,6 +1,6 @@
 {
   "name": "dodge-bug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dodge Bug during build time!",
   "main": "index.js",
   "author": "qlee3",
